@@ -1,0 +1,34 @@
+.pop-native.pop-layout{background-image:var(--pop-wall);background-size:cover;background-position:center center}
+.pop-thread .oner-pop-record{margin:0 0 7px;gap:8px;max-width:100%;flex-shrink:0}
+.pop-thread .oner-pop-record.with-author{margin-top:14px}
+.oner-pop-record>div{max-width:calc(100% - 40px);min-width:0}
+.oner-pop-record .pop-message{max-width:100%;margin:0;align-items:flex-start}
+.oner-pop-record .pop-bubble{max-width:100%;padding:10px 13px;background:#fff;color:#111;border-radius:20px!important;box-shadow:none}
+.oner-pop-record .pop-bubble>p{font-size:14px;line-height:1.45}
+.oner-pop-record blockquote{margin:0 0 7px;padding:0!important;border:0!important;color:#929292!important;font-size:11px;line-height:1.4}
+.oner-pop-record blockquote b{color:#515151;font-weight:600;font-size:11px}
+.oner-pop-record blockquote p{margin:3px 0;font-size:11px;color:#929292}
+.pop-avatar-space{width:32px;flex:0 0 32px}
+.oner-pop-author{display:flex;align-items:center;gap:6px;color:#e5e5e5;padding:0 0 7px;line-height:1.2}
+.oner-pop-author b{font-size:12px;font-weight:500}.oner-pop-author b span{color:#e1e5e9}
+.oner-pop-author time{font-size:9px;margin:0!important;text-shadow:none;color:#d1d1d1}
+.oner-pop-record .pop-media{padding:0;border:0;background:transparent;display:block;border-radius:18px;overflow:hidden;width:165px;max-width:100%}
+.oner-pop-record .oner-pop-poncho{display:block;width:100%;aspect-ratio:298/396;height:auto}
+.pop-thread .pop-day{margin:18px auto 22px}
+.pop-composer{flex-shrink:0}
+
+.pop-media-view .oner-pop-poncho{display:block;width:min(100%,360px);height:auto;aspect-ratio:298/396;max-height:70cqh;margin:auto}
+
+.pop-chat-head #onerPopMenu{border:0;background:none;color:inherit;padding:0;font:inherit}
+#onerPopTranslate svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.oner-pop-menu{position:absolute;z-index:8;top:110px;right:15px;background:#fff;color:#222;border-radius:14px;padding:6px;box-shadow:0 4px 20px #0004}
+.oner-pop-menu button{display:block;border:0;background:none;padding:12px 20px;color:#222;font-size:13px;width:100%;text-align:left}
+.oner-pop-translation{background:#283342;color:#eee;font-size:11px;padding:8px 15px;flex-shrink:0}
+.oner-pop-composer{display:block;padding:9px 16px 28px;background:#fff}
+.oner-pop-input{display:flex;align-items:center;gap:3px;border:1px solid #d6d6d6;border-radius:26px;background:#efefef;padding:4px 8px 4px 11px;min-height:40px}
+.oner-pop-composer textarea{border:0;background:none;border-radius:0;padding:5px 0;flex:1;min-width:0;resize:none;font-size:14px;max-height:80px;outline:none}
+.oner-pop-composer #popSticker{width:28px;height:28px;flex-shrink:0;padding:0;border:0;background:none}
+#popSticker svg{display:block;width:27px;height:27px;fill:none;stroke:#111;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.oner-pop-send[hidden]{display:none}.oner-pop-send{border:0;background:none;font-size:22px}
+
+.young-pop-fiction{align-self:flex-end;align-items:flex-end;margin:5px 0 12px;max-width:78%}.young-pop-fiction .pop-bubble{background:#8b8ac1;color:#fff;border-radius:20px}.oner-pop-provenance{position:absolute;z-index:12;inset:100px 14px auto;background:#fff;color:#222;padding:20px;border-radius:16px;box-shadow:0 6px 30px #0005;font-size:12px;line-height:1.6}.oner-pop-provenance>button{float:right;border:0;background:none;font-size:24px}.oner-pop-provenance a{display:block;color:#3465a4;margin-top:9px}

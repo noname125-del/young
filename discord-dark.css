@@ -1,0 +1,11 @@
+/* Keep the chat scroller dark even when shared native-scroll styles set white. */
+.discord-native.dc-social-chat,.discord-native.dc-social-chat .native-scroll.discord-chat,
+.discord-native .discord-panel,.discord-native .discord-chat{background:#313338!important;color:#f2f3f5!important;color-scheme:dark}
+.discord-native.dc-social-chat .dc-social-header{background:#2b2d31!important;color:#f2f3f5;border-color:#232428}
+.discord-native .dc-message,.discord-native .dc-message-content{background:transparent!important;color:#f2f3f5}
+.discord-native .dc-message p,.discord-native .dc-message header b{color:#f2f3f5!important}
+.discord-native .dc-message time{color:#b5bac1!important}
+.discord-native .dc-composer,.discord-native .discord-composer{background:#383a40!important;color:#f2f3f5!important}
+.discord-native .dc-composer textarea,.discord-native .discord-composer input{background:transparent!important;color:#f2f3f5!important;caret-color:#fff}
+.discord-native .dc-composer textarea::placeholder{color:#b5bac1;opacity:1}
+.discord-native .dc-composer button,.discord-native .dc-composer label,.discord-native .dc-social-header button{color:#dbdee1!important}

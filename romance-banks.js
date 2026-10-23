@@ -1,0 +1,1 @@
+const romanceBanks=[]; function romancePickReply(text){return ["왜 영아"]};

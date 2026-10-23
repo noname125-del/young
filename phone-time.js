@@ -1,0 +1,4 @@
+window.PHONE_TIME_ZONE='America/New_York';
+const phoneFormatters=new Map();
+window.phoneParts=(at=new Date(),tz=window.PHONE_TIME_ZONE)=>{let formatter=phoneFormatters.get(tz);if(!formatter){formatter=new Intl.DateTimeFormat('en-GB',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});phoneFormatters.set(tz,formatter)}return Object.fromEntries(formatter.formatToParts(at).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]))};
+window.phoneInstant=function(date,time,tz=window.PHONE_TIME_ZONE){const [y,m,d]=date.split('-').map(Number),[h,n]=time.split(':').map(Number);const target=Date.UTC(y,m-1,d,h,n);let guess=target;for(let i=0;i<3;i++){const p=phoneParts(new Date(guess),tz);guess+=target-Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute)}return guess};
